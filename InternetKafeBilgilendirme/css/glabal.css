@@ -1,0 +1,130 @@
+/*  Text Center */
+.select{
+    width: 50%;
+    height: auto;
+    padding: 1%;
+    margin-left: 15%;
+}
+table{
+   border: 1px solid black;
+   color: black;
+}
+table tbody td{
+    text-align: center;
+}
+table a{
+    color: black ;
+}
+table a:hover{
+    color:white;
+    background: tomato;
+    opacity: 0,3;
+    padding: 2%;
+    border-radius: 10%;
+}
+.box{
+    width: 70%;
+    background: white;
+    border:1px solid #333 ;
+    padding: 5%;
+    color: black;
+    font-weight: bold;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.heading-small{
+    font-size: 1.25rem;
+    color: white;
+}
+
+.heading-medium{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.heading-big{
+    font-size: 1.75rem;
+    color: white;
+}
+
+/*  Colors */
+
+.bg-dark-blue{
+    /* background: #062e51; */
+   /* background: rgba(188,128,67,0.5);*/
+   background: #333;
+}
+
+.bg-light-blue{
+    background: #336ea2;
+}
+
+/* Buttons */
+
+.btn{
+     margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+.btn-primary{
+    /* background: #336ea2; */
+   /* background: rgb(40,73,23);*/
+   background: tomato;
+}
+.btn-primary:hover{
+    /* color:#336ea2; */
+    color:tomato;
+    /* background: #fff; */
+    background: white;
+    border: 0.5px solid rgb(40,73,23);
+}
+.btn-dark{
+    background: #333;
+}
+.btn-dark:hover{
+    color:#333;
+    background: #fff;
+    border: 0.5px solid #333;
+}
+.btn-block{
+    width: 100%;
+    text-align: center;
+}
+.btn-block:hover{
+    background:white;
+    opacity:0.8;
+}
+.btn-brown{
+    background:#BFC8BB
+}
+.btn-brown:hover{
+    color:#BFC8BB;
+    background:#fff;
+    border: 0.5px solid #BFC8BB;
+}
+/* Container */
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/*  Forms */
+
+.form-group{
+    padding: 0.25rem 0;
+}
+.form-group label{
+    display: block;
+}
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+}
